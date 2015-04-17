@@ -18,5 +18,12 @@ namespace UnionFindAlgorithm.Tests
             ufEager.Union(0,1);
             Assert.IsTrue(ufEager.Connected(0, 1));
         }
+
+        [Test]
+        public void CheckNotConnected()
+        {
+            UfEager ufEager = new UfEager(10);
+            Assert.IsFalse(ufEager.Connected(0, 1));
+        }
     }
 }
