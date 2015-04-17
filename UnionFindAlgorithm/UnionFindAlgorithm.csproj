@@ -49,6 +49,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\UFTest.cs" />
+    <Compile Include="UFAlgorithms\EfQuick.cs" />
     <Compile Include="UFAlgorithms\UFEager.cs" />
   </ItemGroup>
   <ItemGroup>
