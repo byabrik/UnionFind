@@ -3,7 +3,7 @@ using UnionFindAlgorithm.UFAlgorithms;
 
 namespace UnionFindAlgorithm.Tests
 {
-    public class UfTest
+    public class UfEagerTest
     {
         [Test]
         public void CheckConnected()
